@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Gaming Socials</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Orbitron', sans-serif;
+}
+
+body{
+    height:101vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url("assets/si-brahim1.png") no-repeat center center/cover;
+    position:relative;
+}
+
+/* Dark overlay */
+body::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.75);
+    top:0;
+    left:0;
+}
+
+.container{
+    position:relative;
+    background:rgba(20,20,40,0.85);
+    padding:40px;
+    border-radius:20px;
+    width:90%;
+    max-width:420px;
+    text-align:center;
+    box-shadow:0 0 40px #6a0dad;
+}
+
+/* LOGO */
+.logo{
+    width:130px;
+    margin-bottom:20px;
+    filter:drop-shadow(0 0 10px #1e90ff);
+}
+
+h1{
+    color:#fff;
+    margin-bottom:10px;
+    font-size:22px;
+}
+
+p{
+    color:#bbb;
+    margin-bottom:25px;
+    font-size:14px;
+}
+
+.btn{
+    display:block;
+    text-decoration:none;
+    padding:14px;
+    margin:12px 0;
+    border-radius:12px;
+    font-weight:bold;
+    transition:0.3s;
+    color:white;
+    border:2px solid transparent;
+}
+
+.discord{
+    background:#5865F2;
+}
+
+.instagram{
+    background:linear-gradient(45deg,#833ab4,#fd1d1d,#fcb045);
+}
+
+.tiktok{
+    background:black;
+}
+
+.youtube{
+    background:#ff0000;
+}
+
+.btn:hover{
+    transform:scale(1.07);
+    box-shadow:0 0 20px #1e90ff;
+    border:2px solid #ffffff;
+}
+
+footer{
+    margin-top:20px;
+    color:#888;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Logo -->
+    <img src="assets/logo-matrix.png" class="logo" alt="Logo">
+
+    <h1>Gaming World 🎮</h1>
+    <p>Suivez-nous et soutenez notre aventure gaming 🔥</p>
+
+    <a href="https://discord.gg/Qhyzc9Ns" target="_blank" class="btn discord">Join Our Discord</a>
+
+    <a href="https://instagram.com/comisirsibrahim" target="_blank" class="btn instagram">Follow us on Instagram</a>
+
+    <a href="https://tiktok.com/@komisirsibnrahim" target="_blank" class="btn tiktok">Follow us on TikTok</a>
+
+    <a href="https://youtube.com/@BrahimLkrif-n5w" target="_blank" class="btn youtube">Subscribe on YouTube</a>
+
+    <footer>
+        Notre contenu est basé sur le GAMING 🎮🔥
+    </footer>
+
+</div>
+
+</body>
+</html>
